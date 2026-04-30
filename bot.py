@@ -13,8 +13,8 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 
 ADMIN_GROUP_ID = -1003972224951
 UPDATE_CHANNEL = "https://t.me/your_update_channel"
-SUPPORT_URL = "@MDKhairul223334"
-YT_VIDEO_URL = "@MDKhairul223334"
+SUPPORT_URL = "https://t.me/MDKhairul223334"
+YT_VIDEO_URL = "https://t.me/MDKhairul223334"
 LATEST_FILE_URL = "https://t.me/djsksbdsknsn"
 BKASH_NUMBER = "01780872594"
 
