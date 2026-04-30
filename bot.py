@@ -1,4 +1,6 @@
 import os
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
 import random
 import string
 import json
@@ -9,7 +11,6 @@ from flask import Flask
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = "8270840766:AAF-qeH9Zw50DG4ZP86FUHH9N6EVQ_kJlb4"
 ADMIN_GROUP_ID = -1003972224951
 UPDATE_CHANNEL = "https://t.me/your_update_channel"
 SUPPORT_URL = "@MDKhairul223334"
